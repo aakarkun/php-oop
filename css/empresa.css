@@ -1,0 +1,170 @@
+/*-----------------------------------------------
+
+Empresa CSS Custom Design
+Copyright © 2016 - Glomeworks Tech
+
+-----------------------------------------------*/
+
+
+/*GENERAL
+*************************************/
+
+body {
+	background-color: #eceff0;
+}
+
+body,
+input {
+	font: 1em "Raleway", sans-serif;
+	color: #363639;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 1px dashed #363639;
+}
+
+
+/*CENTER-ME
+*************************************/
+.em-center-me {
+
+}
+
+/*MARGIN-STYLES
+*************************************/
+
+/*Normal-margin*/
+.margin {
+    margin: 15px;
+}
+.margin-top {
+    margin-top: 15px;
+}
+.margin-right {
+    margin-right: 15px;
+}
+.margin-bottom {
+    margin-bottom: 15px;
+}
+.margin-left {
+    margin-left: 15px;
+}
+
+/*Larger Margin*/
+.margin-large {
+    margin: 50px;
+}
+.margin-large-top {
+    margin-top: 50px;
+}
+.margin-large-right {
+    margin-right: 50px;
+}
+.margin-large-bottom {
+    margin-bottom: 50px;
+}
+.margin-large-left {
+    margin-left: 50px;
+}
+
+/*Smaller Margin*/
+.margin-large {
+    margin: 5px;
+}
+.margin-small-top {
+    margin-top: 5px;
+}
+.margin-small-right {
+    margin-right: 5px;
+}
+.margin-small-bottom {
+    margin-bottom: 5px;
+}
+.margin-small-left {
+    margin-left: 5px;
+}
+
+/*Reset Margin*/
+.margin-remove {
+    margin: 0px;
+}
+.margin-top-remove {
+    margin-top: 0px;
+}
+.margin-right-remove {
+    margin-right: 0px;
+}
+.margin-bottom-remove {
+    margin-bottom: 0px;
+}
+.margin-left-remove {
+    margin-left: 0px;
+}
+
+/***Card***/
+.em-card {
+	background-color: #fff;
+	margin: 20px auto;
+	width: 100%;
+	max-width: 500px;
+	padding: 20px;
+	border: 1px solid white;
+	border-radius: 2px;
+	box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+}
+
+.em-card:hover {
+	box-shadow: 0 1px 30px rgba(0, 0, 0, 0.2);
+}
+
+/*Card-Header*/
+.em-card .em-card-header {
+	font-family: "Segoe UI", cursive;
+	margin: 0 0 10px 0;
+	font-weight: 300;
+	color: #01a4ff;
+}
+
+/***Button***/
+
+/*Submit-Button*/
+.em-button-submit {
+	background-color: #fff;
+	padding: 10px 10px;
+	border: 1px solid #01a4ff;
+	border-radius: 50px;
+	width: 30%;
+	margin-top: 20px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.em-button-submit:hover,
+.em-button-submit:focus {
+	outline: none;
+	color: #fff;
+	background-color: #01a4fe;
+	cursor: pointer;
+	border: 1px solid rgba(1, 164, 255, 0.02);
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/***Input***/
+
+.em-form-center {
+	/*text-align: center;*/
+}
+
+.em-input {
+	border: 0;
+	width: 90%;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+}
+
+.em-input:focus {
+	outline: none;
+	border-bottom: 1px solid #00a4ff;
+
+}
